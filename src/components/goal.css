@@ -3,9 +3,6 @@
     text-align: center;
     margin: 0 auto;
 }
-h1, h2, h3, h4{
-    color: #008080;
-}
 
 .goalList{
     list-style: none;
@@ -16,7 +13,6 @@ h1, h2, h3, h4{
     padding: 0;
 }
 .goalList li {
-    box-shadow: 0px 0px 2px 3px gray;
     padding: 20px;
     border-radius: 2%;
     font-size: 3em;
@@ -26,7 +22,6 @@ h1, h2, h3, h4{
 }
 a{
     text-decoration: none;
-    color: #A49A8D;
 }
 
 .subgoalList{
@@ -39,7 +34,6 @@ a{
     padding: 0;
 }
 .subgoalList li{
-    box-shadow: 0px 0px 2px 3px gray;
     padding: 10px;
     font-size: 1.5em;
     font-weight: bolder;

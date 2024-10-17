@@ -1,4 +1,18 @@
-@import url('https://fonts.googleapis.com/css?family=Annapurna%20SIL:700|Annapurna%20SIL:400');
+:root{
+  --text: #04171e;
+  --background: #f9fcfe;
+  --primary: #2aa4e1;
+  --secondary: #ca83ee;
+  --accent: #e857d8;
+
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Annapurna+SIL');
 
 body {
   font-family: 'Annapurna SIL';
@@ -26,8 +40,6 @@ small {font-size: 0.750rem; /* 12px */}
 
 .App {
   text-align: center;
-  background-color: #FFF5E1;
-  color: #A49A8D;
 }
 
 .App-logo {
@@ -49,7 +61,6 @@ small {font-size: 0.750rem; /* 12px */}
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-link {

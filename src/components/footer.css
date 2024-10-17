@@ -1,13 +1,31 @@
 .footer{
-    display: flex;
-    justify-content: space-between;
     width: 90%;
     margin: 10px auto;
     box-shadow:0 5px 5px 6px rgb(128, 128, 128);
-    padding: 0 10px;
-    align-items: center;
-    background-color: #008080;
-    color: #A49A8D;
+    text-align: start;
+    padding: 20px;
+    background-color: var(--secondary);
+    border-radius: 15px;
+}
+.footer-nav{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: 10px 0;
+}
+.footer div{
+    display: flex;
+    flex-direction: column;
+}
+.footer div ul{
+    display: flex;
+    flex-direction: column;
+}
+.footer div ul li{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
 }
 
 .footer ul{
@@ -28,5 +46,4 @@
     margin: 0 5px;
 }
 .footer a:hover{
-    color: #FFF5E1;
 }
