@@ -1,0 +1,56 @@
+.goal{
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+}
+h1, h2, h3, h4{
+    color: #008080;
+}
+
+.goalList{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    padding: 0;
+}
+.goalList li {
+    box-shadow: 0px 0px 2px 3px gray;
+    padding: 20px;
+    border-radius: 2%;
+    font-size: 3em;
+    font-weight: bolder;
+    width: 40%;
+    margin: 10px 0;
+}
+a{
+    text-decoration: none;
+    color: #A49A8D;
+}
+
+.subgoalList{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+}
+.subgoalList li{
+    box-shadow: 0px 0px 2px 3px gray;
+    padding: 10px;
+    font-size: 1.5em;
+    font-weight: bolder;
+    width: 95%;
+    margin: 4px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.subgoalList li p {
+    margin: 0;
+}
+.subgoalList input{
+    width: 3em;
+}

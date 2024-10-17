@@ -1,0 +1,32 @@
+.task{
+    width: 60%;
+    margin: 0 auto;
+  }
+  .taskList li{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    box-shadow: 1px 1px 10px 1px gray;  
+    margin: 10px auto;
+    padding: 5px;
+  }
+  .taskList{
+    padding: 0;
+  }
+  h2,h3,h4,h5,h6{
+    text-align: left;
+  }
+  
+  .insertTask{
+    width: 60%;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+  }
+  .insertTask input{
+    width: 90%;
+    height: 40px;
+    font-size: larger;
+  }

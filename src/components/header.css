@@ -1,0 +1,38 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 10px auto;
+    box-shadow:0 5px 5px 6px #A49A8D;
+    padding: 0 10px;
+    align-items: center;
+    background-color: #008080;
+}
+.header img{
+    width: 80px;
+    border-radius: 5px;
+    margin: 5px 5px 5px 0;
+}
+
+.header ul{
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.header ul li{
+    display: flex;
+}
+
+.header a{
+    display: block;
+    text-decoration: none;
+    color: #A49A8D;
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 0 5px;
+}
+.header a:hover{
+    color: #FFF5E1;
+}
